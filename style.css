@@ -1,0 +1,121 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: calc(8px + 1vw);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2vw;
+}
+nav ul{
+    display: flex;
+
+}
+nav ul li{
+    margin-left: 2vw;
+
+}
+.firstCont ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.firstCont h1{
+    font-size: 1.6rem;
+}
+.firstCont p{
+    margin: 0.2vw 0 2vw 0;
+}
+.firstCont button{
+    background: #0E8388;
+    height: 3vw;
+    width: 9vw;
+    border-radius: 2vw;
+    color: white;
+    
+}
+
+.firstCont{
+    margin-bottom: 2vw;
+}
+.produts{
+    background-color: #CBE4DE;
+}
+.produts ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.produts ul li{
+    margin-top: 2vw;
+    background-color: white;
+    width: 30%;
+    height: 20vw;
+    margin-bottom: 2vw;
+    text-align: center;
+    border-radius: 2vw;
+    padding-top: 2vw;
+}
+.produts img{
+    background-color: #EFEFEF;
+    padding: 1vw;
+    border-radius: 50%;
+}
+.produts h3{
+    margin: 1.5vw 0 2.5vw 0;
+}
+.final h2{
+    text-align: center;
+    font-size: 1.8rem;
+    margin-top: 2vw;
+}
+.final p.P{
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 1vw;
+}
+.final ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3vw;
+}
+.final ul li ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.final ul li ul li h3{
+    font-size: 1.8vw;
+}
+.final ul li ul li p{
+    font-size: 1.2vw;
+}
+footer{
+    background: #CBE4DE;
+    height: 4vw;
+}
+footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:  0 2vw 0 2vw;
+}
+footer ul li ul{
+    display: flex;
+    align-items: center;
+}
+footer ul li ul li{
+    
+}
+    
